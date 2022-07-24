@@ -2,7 +2,7 @@
 #define DHTTYPE DHT11
 #define dht_dpin 11
 
-DHT dht(dht_pin, DHTTYPE);
+DHT dht(dht_dpin, DHTTYPE);
 
 void setup() {
   dht.begin();
